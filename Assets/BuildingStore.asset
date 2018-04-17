@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ede9f39a68fca6a41875db4d0ce081be, type: 3}
+  m_Name: BuildingStore
+  m_EditorClassIdentifier: 
+  buildings:
+  - name: Farm
+    upgrades:
+    - price: 0
+      sinceYear: 0
+      prefab: {fileID: 1675812861603394, guid: c2f0ffcd049a59e4a8bc8ed2b97dbcd2, type: 2}
+    - price: 10
+      sinceYear: 100
+      prefab: {fileID: 1913403887684326, guid: 61a8c533c0f0c584da33d02e11743cf9, type: 2}
+    - price: 50
+      sinceYear: 200
+      prefab: {fileID: 1780500460484308, guid: d5d2fe76fcc33f545a5f6f17ee9b5ef3, type: 2}
+    - price: 50
+      sinceYear: 300
+      prefab: {fileID: 1747781994129068, guid: 00595c05cd0d4d94a8b739c9b4ca4abd, type: 2}
+    - price: 50
+      sinceYear: 400
+      prefab: {fileID: 1137463831717858, guid: ce48b8be48beb8540bac8339a188dcc5, type: 2}
+    - price: 50
+      sinceYear: 500
+      prefab: {fileID: 1474911908696938, guid: 60fb327b07ab87545ac5583f57dfae27, type: 2}
+  - name: Market
+    upgrades: []
+  - name: House
+    upgrades: []
+  - name: Soviet
+    upgrades: []
+  - name: Stonehenge
+    upgrades: []
